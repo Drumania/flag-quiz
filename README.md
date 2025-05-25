@@ -1,8 +1,36 @@
-# React + Vite
+# Flag Quiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Flag Quiz es una aplicación educativa desarrollada en React + TypeScript que desafía a los usuarios a adivinar las banderas de distintos países. Los niveles se organizan por población y el progreso del usuario se guarda con Firebase.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React + Vite
+- TypeScript
+- Bootstrap 5 (clases CSS, sin React-Bootstrap)
+- Firebase Auth
+- Firebase Firestore
+- Firebase Hosting (opcional)
+- Context API (manejo global de auth)
+
+## Funcionalidades
+
+- Login con Google y con email/contraseña
+- Modal para login y registro
+- Modal visual para adivinar banderas
+- Progreso del usuario almacenado en Firestore
+- Niveles divididos según población
+- Animaciones visuales para respuestas correctas e incorrectas
+- Componentes tipados y reutilizables
+
+## Instalación
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/tu-usuario/flag-quiz.git
+cd flag-quiz
+```
+
+##Autor
+Martín Brumana
+UX Designer, Front-end Developer & Product Designer
